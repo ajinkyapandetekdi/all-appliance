@@ -41,6 +41,7 @@ export class HindiVersionComponent implements OnInit {
     this.learnandplay = true;
     this.playgame = false;
     this.videohelp = false;
+    console.log( this.exploreandlearn, this.learnandplay,this.playgame,this.videohelp);
   }
 
   showPlaygame() {
@@ -48,6 +49,7 @@ export class HindiVersionComponent implements OnInit {
     this.learnandplay = false;
     this.playgame = true;
     this.videohelp = false;
+    console.log( this.exploreandlearn, this.learnandplay,this.playgame,this.videohelp);
   }
 
   showVideoHelp() {
@@ -55,6 +57,7 @@ export class HindiVersionComponent implements OnInit {
     this.learnandplay = false;
     this.playgame = false;
     this.videohelp = true;
+    console.log( this.exploreandlearn, this.learnandplay,this.playgame,this.videohelp);
   }
 
 }
